@@ -10,7 +10,7 @@ func main() {
 	fmt.Printf("please enter 0-100 value:")
 	fmt.Scanln(&number)
 	if answer == number {
-		fmt.Println("Congratulations!")
+		fmt.Println("number=", number, "Congratulations!")
 	} else if number < answer {
 		fmt.Println("to small!")
 	} else if number > answer {
