@@ -12,8 +12,8 @@ func main() {
 	if answer == number {
 		fmt.Println("number=", number, "Congratulations!")
 	} else if number < answer {
-		fmt.Println("to small!")
+		fmt.Println("number=", number, "to small!")
 	} else if number > answer {
-		fmt.Println("to big!")
+		fmt.Println("number=", number, "to big!")
 	}
 }
