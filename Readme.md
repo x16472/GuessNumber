@@ -32,3 +32,26 @@ int main()
     }
     return 0;
 }
+```
+-   轉換後程式碼
+```golang
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	const answer = 27
+	var number int
+	fmt.Printf("please enter 0-100 value:")
+	fmt.Scanln(&number)
+	if answer == number {
+		fmt.Println("number=", number, "Congratulations!")
+	} else if number < answer {
+		fmt.Println("number=", number, "to small!")
+	} else if number > answer {
+		fmt.Println("number=", number, "to big!")
+	}
+}
+```
